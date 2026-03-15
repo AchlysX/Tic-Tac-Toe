@@ -1,9 +1,9 @@
 <p align="center">
-  <img src="\app\src\main\res\drawable\name.jpg" alt="Tic-Tac-Toe!" width="350"/>
+  <img src="app/src/main/res/drawable/name.jpg" alt="Tic-Tac-Toe!" width="350"/>
 </p>
 
 <p align="center">
-  <img src="\app\src\main\res\drawable\ic_launcher-playstore.jpg" alt="App Icon" width="100"/>
+  <img src="app/src/main/res/drawable/ic_launcher-playstore.jpg" alt="App Icon" width="100"/>
 </p>
 
 <p align="center">
