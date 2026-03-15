@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#1A237E">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Titre avec Image -->
+        <ImageView
+            android:layout_marginTop="20dp"
+            android:id="@+id/ico"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/about" />
+
+        <!-- Description du projet -->
+        <TextView
+            android:layout_marginTop="60dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tic-Tac-Toe est un jeu simple et amusant pour deux joueurs. Ce projet a été réalisé dans le cadre d’un travail scolaire pour développer une application mobile interactive."
+            android:textSize="16sp"
+            android:layout_marginBottom="16dp"
+            android:textColor="#FFFFFF" />
+
+        <!-- Contributions -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Contributeurs :"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp"
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:layout_marginTop="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="- Ahmed BENLAFQIH "
+            android:textSize="16sp"
+            android:layout_marginBottom="4dp"
+            android:textColor="#FFFFFF" />
+
+
+        <!-- Note -->
+        <TextView
+            android:layout_marginTop="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cette application a été créée dans un cadre pédagogique et n’est pas destinée à un usage commercial."
+            android:textSize="16sp"
+            android:layout_marginBottom="16dp"
+            android:textColor="#FFFFFF" />
+
+        <!-- Emails Section -->
+        <TextView
+
+            android:layout_marginTop="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pour toute question ou feedback, vous pouvez nous contacter par email :"
+            android:textSize="16sp"
+            android:layout_marginBottom="8dp"
+            android:textColor="#FFFFFF" />
+
+        <!-- Email 1 -->
+        <TextView
+
+            android:layout_marginTop="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ahmed : ahmed.benlafqih@proton.me"
+            android:autoLink="email"
+            android:textSize="16sp"
+            android:layout_marginBottom="8dp"
+            android:textColor="#FF9800" />
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#1A237E"
+    android:gravity="center"
+    tools:context=".addPlayers">
+
+
+    <ImageView
+        android:id="@+id/ico"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/name" />
+
+
+    <ImageView
+
+        android:id="@+id/imageView"
+        android:layout_marginTop="100dp"
+        android:layout_width="378dp"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/players" />
+
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="0dp"
+        android:orientation="horizontal"
+        android:background="@color/dark_blue"
+        >
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="30dp"
+            android:src="@drawable/x"
+            android:adjustViewBounds="true" />
+        
+    <EditText
+        android:inputType="text"
+        android:maxLines="1"
+        android:id="@+id/player1name"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:textColor="#FFFFFF"
+        android:hint="Joueur 1"
+        android:textColorHint="@color/light_white"
+        android:background="@color/dark_blue"
+        tools:ignore="VisualLintTextFieldSize" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:background="@color/dark_blue"
+        >
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="30dp"
+            android:src="@drawable/circle"
+            android:adjustViewBounds="true" />
+
+        <EditText
+            android:inputType="text"
+            android:maxLines="1"
+            android:id="@+id/player2name"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:textColor="#FFFFFF"
+            android:hint="Joueur 2"
+            android:textColorHint="@color/light_white"
+            android:background="@color/dark_blue"
+            tools:ignore="VisualLintTextFieldSize" />
+    </LinearLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/startgame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="160dp"
+        android:text="Lancer la partie"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/roundbackblue1000"
+        tools:ignore="VisualLintButtonSize" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/aboutus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="30dp"
+        android:text="À propos de nous"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/roundbackblue1000"
+        tools:ignore="VisualLintButtonSize" />
+
+</LinearLayout>
