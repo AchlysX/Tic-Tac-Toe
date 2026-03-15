@@ -92,4 +92,4 @@ The APK will be generated at `app/build/outputs/apk/debug/app-debug.apk`
 
 ---
 
-*2024–2025 — 2A SIE*
+2024–2025
